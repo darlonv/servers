@@ -1,0 +1,12 @@
+version: '3'
+services:
+    jupyter:
+        image: darlon/jupyter:1.0
+        volumes:
+            - /home/darlon/Pesquisa:/data
+              #- ./data/:/data
+        ports:
+            - "8888:8888"
+            - "8501:8501"
+        restart: always
+
