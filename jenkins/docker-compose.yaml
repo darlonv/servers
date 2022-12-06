@@ -1,0 +1,9 @@
+version: '3'
+services:
+    jenkins:
+        image: jenkins/jenkins:lts-jdk11
+        ports:
+            - "8080:8080"
+            - "5000:5000"
+        restart: always
+        #docker run --name myjenkins -p 8080:8080 -p 50000:50000 --restart=on-failure jenkins/jenkins:lts-jdk11
