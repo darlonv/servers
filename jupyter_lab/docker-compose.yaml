@@ -1,0 +1,8 @@
+services:
+  jlab:
+    image: darlon/jlab:latest
+    volumes:
+      - /home/darlon/Pesquisa:/data #- ./data/:/data
+    ports:
+      - "8899:8888" #Jupyter Lab
+    restart: always
