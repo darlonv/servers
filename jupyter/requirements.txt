@@ -4,6 +4,7 @@ jupyter-book==0.12.2
 notebook==6.4.8
 tqdm
 nbconvert[webpdf]
+matplotlib==3.7.0
 
 #Geopandas
 #geopandas==0.10.2
@@ -23,7 +24,7 @@ nbconvert[webpdf]
 #xgboost
 
 #Streamlit, dash e gradio
-streamlit
+#streamlit
 #dash==2.4.1
 #gradio
 

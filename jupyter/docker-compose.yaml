@@ -1,12 +1,12 @@
 version: '3'
 services:
     jupyter:
-        image: darlon/jupyter:1.0
+        image: darlon/jupyter-smart:1.1
         volumes:
             - /home/darlon/Pesquisa:/data
               #- ./data/:/data
         ports:
-            - "8888:8888"
-            - "8501:8501"
+            - "8888:8888" #Jupyter
+              #            - "8501:8501" #Streamlit
         restart: always
 
